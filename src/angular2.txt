@@ -1,0 +1,18 @@
+                                                 API caliing in angular
+
+ * rxjs is a library. it is an extension for js. it handle one or more apis at a time. it means reactive extension for js
+
+
+1. check rxjs library 
+2. angular ----> http client module ----> use http client class ----> import to app.module.ts
+   http client class - it is neccessary to perform api calling/http request
+
+   import { HttpClientModule } from '@angular/common/http';
+
+3. create a function for define
+4. activatedRoutes class using for get id from url
+5. ngForm using for checking all values in form is valid - #myTemplateVar="ngForm"
+6. pipe is used to transform strings currency acc, date and other data for display
+
+syntax:-
+         value_expression | pipe operator [:option1 [:option2 [:opton3]]]
